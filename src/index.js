@@ -1,24 +1,38 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 
-// Date and time
+
+let currDate = new Date();
+currDate = currDate.getHours();
+let greeting = "";
+let cssstyle = {};
 
 
-const fname = "nikesh";
-const lname = "Deula";
-const currdate =  new Date().toLocaleDateString();
-const currtime = new Date().toLocaleTimeString();
+if(currDate >= 8 || currDate <12){
+    greeting = "good Morning";
+    cssstyle.color = "green";
+}
+else if(currDate >= 12 || currDate < 5){
+    greeting = "good Evening";
+    cssstyle.color = "pink";
+}
+else {
+    greeting = "good Night";
+    cssstyle.color = "red";
+}
+
+
+
 
 ReactDOM.render(
-    <>
-<h1>My Name is {fname+" "+ lname}</h1>
-<p>Todays Date {currdate}</p>
-<p>Current Time {currtime}</p>
-
+<>
+<div>
+<h1>hello sir/madam <span style={cssstyle}> {greeting} </span></h1>
+</div>
 </>,
 document.getElementById("root")
 );
-
 
 
 
