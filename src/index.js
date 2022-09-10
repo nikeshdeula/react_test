@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import "./index.css";
 
 // Image showing using jsx
 
@@ -11,7 +12,10 @@ const link = "https://nickwalkerior.blogspot.com/";
 
 ReactDOM.render(
     <>
-<h1>Name: {fullName}</h1>;
+<h1 className='heading'>Name: {fullName}</h1>;
+
+<div className='image_box'>
+    
 <img src={img1} alt='ramdom images' />
     <a href={link} target="_blank">
         <img src= {img2}/>
@@ -19,6 +23,8 @@ ReactDOM.render(
     <a href={link} target="_blank">
         <img src= {img3}/>
     </a>
+    
+</div>
 
     </>,
     document.getElementById("root")
