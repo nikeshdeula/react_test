@@ -1,22 +1,26 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// Date and time
+// Image showing using jsx
 
-
-const fname = "nikesh";
-const lname = "Deula";
-const currdate =  new Date().toLocaleDateString();
-const currtime = new Date().toLocaleTimeString();
+const fullName = "Random Generated Image";
+const img1 = "https://picsum.photos/200/300";
+const img2 = "https://picsum.photos/202/300";
+const img3 = "https://picsum.photos/201/300";
 
 ReactDOM.render(
     <>
-<h1>My Name is {fname+" "+ lname}</h1>
-<p>Todays Date {currdate}</p>
-<p>Current Time {currtime}</p>
+<h1>Name: {fullName}</h1>;
+<img src={img1} alt='ramdom images'/>
+    <a href='Flamingo Tech'>
+        <img src= {img2}/>
+    </a>
+    <a href='Flamingo Tech'>
+        <img src= {img3}/>
+    </a>
 
-</>,
-document.getElementById("root")
+    </>,
+    document.getElementById("root")
 );
 
 
