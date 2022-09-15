@@ -5,7 +5,6 @@
 }
 
 
-
 .navbar  {
   width: auto;
   display: flex;
@@ -126,4 +125,25 @@
 
 
 
+
+=======
+.heading {
+  color: purple;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.image_box {
+  text-align: center;
+
+
+
+}
+
+
+.image_box img {
+  margin: 10px;
+  
+}
 
