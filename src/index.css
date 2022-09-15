@@ -25,3 +25,148 @@ h1 {
 img:hover {
   transform: scale(1.03);
 }
+=======
+
+.navbar  {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+.navbar h3 {
+  margin-left: 20px;
+  color: red;
+}
+
+.navbar ul {
+  display:  flex;
+  padding-right: 20px;
+ 
+}
+
+
+.navbar ul li{
+
+  list-style: none;
+  margin-right:40px ;
+
+
+ 
+}
+
+
+.navbar ul a {
+  text-decoration: none;
+
+}
+
+
+.navbar .btn {
+  background-color: red;
+  padding: 10px;
+  margin-top: -10px;
+  color: white;
+  border-radius: 4px;
+}
+
+
+
+/* ..............Card............. */
+
+.cards {
+  height: auto;
+  /* border: solid 2px black; */
+  justify-content: space-between;
+  width: auto;
+  display: inline-flex;
+  margin-left: 2.1%;
+  justify-content: center;
+
+
+}
+
+
+.card {
+  margin: 2rem;
+  width: 200px;
+  height: 350px;
+  overflow: hidden;
+  /* border: 2px solid black; */
+  border-radius: 5px 5px 0px 0px ;
+}
+
+.card .card_img img{
+  width: 200px;
+  
+
+}
+
+
+.card .card_img img:hover {
+  transform: scale(1.02);
+  transition: 1s;
+}
+
+.card button {
+  padding: 5px;
+  width: 100%;
+  color: rgb(253, 253, 253);
+  background-color: red;
+  border: none;
+  font-weight: bold;
+
+}
+
+.card .card_info {
+  text-align: center;
+}
+
+
+.card button:hover {
+  cursor: pointer;
+ 
+
+}
+
+.card:hover {
+  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.08);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======
+.heading {
+  color: purple;
+  text-align: center;
+  padding: 2rem;
+  font-family: 'Poppins', sans-serif;;
+}
+
+.image_box {
+  text-align: center;
+
+
+
+}
+
+
+.image_box img {
+  margin: 10px;
+  
+}
+
+
