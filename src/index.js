@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import './index.css';
+import App from "./App";
+=======
+
 import App from "./App";
 import "./index.css"
 
@@ -22,6 +26,11 @@ const img3 = "https://picsum.photos/201/300";
 const link = "https://nickwalkerior.blogspot.com/";
 
 ReactDOM.render(
+
+<App/>,
+
+document.getElementById("root")
+=======
     <>
 <h1 className='heading'>Name: {fullName}</h1>;
 
@@ -39,6 +48,7 @@ ReactDOM.render(
 
     </>,
     document.getElementById("root")
+
 );
 
 
