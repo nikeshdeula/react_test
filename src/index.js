@@ -7,13 +7,16 @@ import App from "./App";
 
 import App from "./App";
 import "./index.css"
+import Hook from "./Hook";
 
 ReactDOM.render(
 <>
-<App/>
+<Hook />
 </>,
 document.getElementById("root")
 ); 
+
+=======
 =======
 import "./index.css";
 
@@ -50,6 +53,7 @@ document.getElementById("root")
     document.getElementById("root")
 
 );
+
 
 
 
