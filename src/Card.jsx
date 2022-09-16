@@ -18,4 +18,7 @@ function Card(props) {
   );
 }
 
+//lost
+
+
 export default Card;
