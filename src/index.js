@@ -1,14 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "./App";
 import "./index.css"
-import Hook from "./Hook";
+import Do from "./Do";
+import App from './App';
+import Navbar from "./Navbar";
+
+
 
 ReactDOM.render(
+
+    // <Do />,
 <>
-<Hook />
+<Do />
 </>,
-document.getElementById("root")
-); 
-
-
+   
+    
+    document.getElementById("root")
+);

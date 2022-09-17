@@ -1,15 +1,17 @@
 import React from "react";
 
-function Card(props) {
+const Card = (props)=> {
   return (
     <>
+
     <div className="cards">
       <div className="card">
         <div className="card_img">
-          <img src= {props.image} alt="" />
+          <img src= {props.imgsrc} alt="" />
           <div className="card_info">
-            <h3 className="card_title">{props.mname}</h3>
-            <a href={props.link}><button>Watch Now</button></a>
+            <h3 className="card_title">{props.jname} hell</h3>
+            <h3 className="card_title">{props.jprice}</h3>
+            <a href={props.jlink}><button>Watch Now</button></a>
           </div>
         </div>
       </div>
@@ -17,8 +19,6 @@ function Card(props) {
     </>
   );
 }
-
-//lost
 
 
 export default Card;
