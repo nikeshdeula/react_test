@@ -58,6 +58,11 @@ img:hover {
 }
 
 
+
+
+
+
+
 .navbar ul a {
   text-decoration: none;
 
@@ -100,6 +105,8 @@ img:hover {
 
 .card .card_img img{
   width: 200px;
+  height: 250px;
+  
   
 
 }
@@ -137,6 +144,39 @@ img:hover {
 
 
 
+.Heading {
+  text-align: center;
+  margin-top: 20rem;
+}
+
+
+.Heading button{
+  padding: 20px;
+  font-weight: bold;
+  border: none;
+  background-color: pink;
+  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.08);
+  margin: 15px;
+  cursor: pointer;
+}
+
+
+
+.jackets {
+
+  text-align: center;
+  padding: 2rem;
+
+}
+
+
+
+.saree {
+
+  text-align: center;
+  padding: 1rem;
+
+}
 
 
 
@@ -145,7 +185,38 @@ img:hover {
 
 
 
+/* ...........Do......... */
 
+
+h1 {
+ color:  rgb(255, 0, 43);
+  font-weight: bold;
+  margin: 10px;
+}
+
+ol li {
+  color:  rgb(255, 0, 43);
+  font-weight: bold;
+  margin: 30px;
+}
+
+input {
+  padding: 5px;
+  width: 20rem;
+  margin: 20px;
+  border: none;
+  border-bottom: 2px solid rgb(255, 0, 43);
+
+}
+
+
+.fa{
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 0%;
+
+  color: pink;
+}
 
 
 =======
