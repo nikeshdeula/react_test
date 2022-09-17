@@ -1,8 +1,18 @@
 import React from "react";
+
+=======
+import Heading from "./Heading";
+import Content from "./Content";
+
+//Calling imaging using js functions
+=======
+import Navbar from "./Navbar";
+
 import Card from "./Card";
 import Jdata from "./Jdata";
 import Saree from "./Saree";
 import Sdata from "./Sdata";
+
 
 
 const App = () => {
@@ -34,9 +44,23 @@ const App = () => {
         sprice = {saree.sprice}
         slink = {saree.slink} />
         );
+=======
+function App() {
+  return (
+    
+      <Heading />
+      <Content />
+=======
+      <Navbar />
+      {Mdata.map((val,index) => {
+        console.log(index);
+        return(
+        <Card image={val.image} mname={val.mname} link={val.link} />);
+
       })}
     </>
   );
 };
 
 export default App;
+
