@@ -19,19 +19,25 @@ import Sdata from "./Sdata";
 
 
 
+const FirstName = createContext();
+const LastName = createContext();
 
 const App = () => {
 
-  const FirstName = createContext();
-  const LastName = createContext();
+ 
   return (
     <>
+<<<<<<< HEAD
+    <FirstName.Provider value = {"Nikesh"}>
+      <LastName.Provider value={"Deula"}>
+=======
 
     <FirstName.provider value = {"Nikesh"}>
       <LastName.provider value={"Deula"}>
+>>>>>>> f9f9abcc620ae6def125339c81180f71a13ff4fa
     <ComA />
-    </LastName.provider>
-    </FirstName.provider>   
+    </LastName.Provider>
+    </FirstName.Provider>   
    </>
 =======
 
