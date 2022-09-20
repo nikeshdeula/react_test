@@ -1,3 +1,7 @@
+
+import React, { createContext } from 'react';
+import ComA from "./ComA";
+=======
 import React from "react";
 
 =======
@@ -15,9 +19,21 @@ import Sdata from "./Sdata";
 
 
 
+
 const App = () => {
+
+  const FirstName = createContext();
+  const LastName = createContext();
   return (
     <>
+
+    <FirstName.provider value = {"Nikesh"}>
+      <LastName.provider value={"Deula"}>
+    <ComA />
+    </LastName.provider>
+    </FirstName.provider>   
+   </>
+=======
 
    <h1 className="jackets">Jackets</h1>
 
@@ -59,8 +75,13 @@ function App() {
 
       })}
     </>
+
   );
 };
 
 export default App;
+
+export {FirstName, LastName};
+=======
+
 

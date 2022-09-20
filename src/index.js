@@ -1,6 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import App from "./App";
+
+=======
+
 =======
 
 import './index.css';
@@ -16,8 +20,16 @@ import Navbar from "./Navbar";
 
 
 
-ReactDOM.render(
 
+
+
+ReactDOM.render(
+    <>
+    <App />
+    </>,
+    document.getElementById("root")
+);
+=======
     // <Do />,
 <>
 <Do />
@@ -66,6 +78,7 @@ document.getElementById("root")
     document.getElementById("root")
 
 );
+
 
 
 
