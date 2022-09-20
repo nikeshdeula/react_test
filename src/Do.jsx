@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ListItem  from './ListItem';
+import AcUnitIcon from '@mui/icons-material/AcUnit';
 
 
 
@@ -28,7 +29,7 @@ const Do = () => {
         <br />
         <input type="text" onChange={itemEvent} value={item} />
         <button onClick={List}>
-        <i class="fa fa-plus" aria-hidden="true"></i>
+        
         </button>
         <br />
         <ul>
