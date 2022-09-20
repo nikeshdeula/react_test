@@ -1,18 +1,19 @@
 import React, { createContext } from 'react';
 import ComA from "./ComA";
 
+const FirstName = createContext();
+const LastName = createContext();
 
 const App = () => {
 
-  const FirstName = createContext();
-  const LastName = createContext();
+ 
   return (
     <>
-    <FirstName.provider value = {"Nikesh"}>
-      <LastName.provider value={"Deula"}>
+    <FirstName.Provider value = {"Nikesh"}>
+      <LastName.Provider value={"Deula"}>
     <ComA />
-    </LastName.provider>
-    </FirstName.provider>   
+    </LastName.Provider>
+    </FirstName.Provider>   
    </>
   );
 };
