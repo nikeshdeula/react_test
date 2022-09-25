@@ -1,19 +1,14 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Header from './Components/Header';
+import React from "react";
 
 const Home = () => {
-    return (
-        <>
-        <Header />
-        <h1>I'am Home Page</h1>
-        <Outlet />
-        </>
-
-        
-
-
-    );
-}
+  return (
+    <>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. At totam soluta
+        labore quibusdam repellat dolorum error! Commodi, fuga eum? Illum.
+      </p>
+    </>
+  );
+};
 
 export default Home;

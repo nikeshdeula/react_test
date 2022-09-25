@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Components/Header';
+
 
 
 const Contact = () => {
@@ -7,8 +7,8 @@ const Contact = () => {
     
 
     return (
-        <>
-        <Header />
+    <>
+    <h1>Its contact page</h1>
         </>
     );
 }
