@@ -1,14 +1,16 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 
 
 const Contact = () => {
-
+const {Call, Us} = useParams();
     
 
     return (
     <>
-    <h1>Its contact page</h1>
+    <h1>Its contact page 
+        for more info {Call} {Us}</h1>
         </>
     );
 }

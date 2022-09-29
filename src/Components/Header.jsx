@@ -4,9 +4,14 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
     return (
         <>
-        <li><NavLink to="/">Home</NavLink></li>
-        <li><NavLink to="/About">About</NavLink></li>
-        <li><NavLink to="/Contact">Contact</NavLink></li>
+        <div className="navbar"> 
+        <h2 className='logo'>Coding</h2>
+        <div className="menu">
+        <li><NavLink  to="/"><a>Home</a></NavLink></li>
+        <li><NavLink to="/About/Nikesh/Deula"><a>About</a></NavLink></li>
+        <li><NavLink to="/Contact/Call/Us"><a>Contact</a></NavLink></li>
+        </div>
+        </div>
 
         </>
     );

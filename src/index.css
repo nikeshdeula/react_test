@@ -4,240 +4,39 @@
   box-sizing: border-box;
 }
 
-body {
-  background: pink;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  text-align: center;
-  justify-content: center;
-  font-family: 'Poppins', sans-serif;
-}
 
-img {
-  margin: 20px;
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-  padding: 2rem;
-}
-
-img:hover {
-  transform: scale(1.03);
-}
-=======
-
-.navbar  {
-  width: auto;
+.navbar {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.1);
-
+  width: 80%;
+  margin: auto;
 }
 
-.navbar h3 {
-  margin-left: 20px;
-  color: red;
+.logo {
+  padding-top: 15px;
 }
 
-.navbar ul {
-  display:  flex;
-  padding-right: 20px;
- 
-}
-
-
-.navbar ul li{
-
+.menu {
+  display: flex;
   list-style: none;
-  margin-right:40px ;
-
-
- 
-}
-
-
-
-
-
-
-
-.navbar ul a {
-  text-decoration: none;
+  float: right;
 
 }
 
-
-.navbar .btn {
-  background-color: red;
-  padding: 10px;
-  margin-top: -10px;
-  color: white;
-  border-radius: 4px;
-}
-
-
-
-/* ..............Card............. */
-
-.cards {
-  height: auto;
-  /* border: solid 2px black; */
-  justify-content: space-between;
-  width: auto;
-  display: inline-flex;
-  margin-left: 2.1%;
-  justify-content: center;
-
-
-}
-
-
-.card {
-  margin: 2rem;
-  width: 200px;
-  height: 350px;
-  overflow: hidden;
-  /* border: 2px solid black; */
-  border-radius: 5px 5px 0px 0px ;
-}
-
-.card .card_img img{
-  width: 200px;
-  height: 250px;
-  
-  
-
-}
-
-
-.card .card_img img:hover {
-  transform: scale(1.02);
-  transition: 1s;
-}
-
-.card button {
-  padding: 5px;
-  width: 100%;
-  color: rgb(253, 253, 253);
-  background-color: red;
-  border: none;
-  font-weight: bold;
-
-}
-
-.card .card_info {
-  text-align: center;
-}
-
-
-.card button:hover {
-  cursor: pointer;
- 
-
-}
-
-.card:hover {
-  box-shadow: 0px 0px 4px 4px rgba(0, 0, 0, 0.08);
-}
-
-
-
-.Heading {
-  text-align: center;
-  margin-top: 20rem;
-}
-
-
-.Heading button{
-  padding: 20px;
-  font-weight: bold;
-  border: none;
-  background-color: pink;
-  box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.08);
-  margin: 15px;
-  cursor: pointer;
-}
-
-
-
-.jackets {
-
-  text-align: center;
-  padding: 2rem;
-
-}
-
-
-
-.saree {
-
-  text-align: center;
-  padding: 1rem;
-
-}
-
-
-
-
-
-
-
-
-/* ...........Do......... */
-
-
-h1 {
- color:  rgb(255, 0, 43);
-  font-weight: bold;
-  margin: 10px;
-}
-
-ol li {
-  color:  rgb(255, 0, 43);
-  font-weight: bold;
-  margin: 30px;
-}
-
-input {
-  padding: 5px;
-  width: 20rem;
+.menu li {
   margin: 20px;
-  border: none;
-  border-bottom: 2px solid rgb(255, 0, 43);
 
 }
 
 
-.fa{
-  padding: 5px;
-  font-size: 15px;
-  border-radius: 0%;
-
-  color: pink;
+.menu li  a {
+  text-decoration: none;
+  color: blueviolet;
+  font-weight: bold;
 }
 
-
-=======
-.heading {
-  color: purple;
-  text-align: center;
-  padding: 2rem;
-  font-family: 'Poppins', sans-serif;;
-}
-
-.image_box {
-  text-align: center;
-
-
-
-}
-
-
-.image_box img {
-  margin: 10px;
+img{
+width: 100%;
   
 }
-
 
