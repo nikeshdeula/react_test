@@ -1,16 +1,22 @@
+import { Button } from '@mui/material';
 import React from 'react';
-import { useParams } from 'react-router-dom';
+import { useLocation, useParams } from 'react-router-dom';
 
 
 
 const Contact = () => {
 const {Call, Us} = useParams();
+const location =useLocation();
     
-
+   
     return (
     <>
     <h1>Its contact page 
         for more info {Call} {Us}</h1>
+        <p>I am {location.pathname}</p>
+        {location.pathname === `/Contact/Nikesh/Premium` ? (
+            <button onClick={()=> {alert(`It's $9999`)}}>Purchase Now</button> 
+         ) : null}
         </>
     );
 }

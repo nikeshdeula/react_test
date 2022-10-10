@@ -10,6 +10,7 @@ const Header = () => {
         <li><NavLink  to="/"><a>Home</a></NavLink></li>
         <li><NavLink to="/About/Nikesh/Deula"><a>About</a></NavLink></li>
         <li><NavLink to="/Contact/Call/Us"><a>Contact</a></NavLink></li>
+        <li><NavLink to="/Search"><a>Search</a></NavLink></li>
         </div>
         </div>
 
